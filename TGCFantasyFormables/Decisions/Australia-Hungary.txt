@@ -1,0 +1,36 @@
+political_decisions = {
+
+	austria_claim_australia = {
+		picture = austria_claim_australia
+	
+		potential = { 
+			OR = {
+				tag = AUS
+				tag = KUK
+				tag = DNB
+			}
+			is_greater_power = yes
+			NOT = { has_country_flag = claimed_australia_AUS }
+		}
+	
+		allow = {
+			war = no
+			all_core = { owned_by = THIS }
+			state_n_government = 1
+		}
+	
+		effect = {
+			set_country_flag = claimed_australia_AUS
+			ENG_2468 = { add_core = THIS }
+			ENG_2476 = { add_core = THIS }
+			ENG_2483 = { add_core = THIS }
+			ENG_2491 = { add_core = THIS }
+			ENG_2497 = { add_core = THIS }
+			ENG_2505 = { add_core = THIS }
+		}
+	
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
