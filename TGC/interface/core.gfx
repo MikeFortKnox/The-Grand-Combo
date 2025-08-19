@@ -51,7 +51,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_small2"
 		texturefile = "gfx\\interface\\pops_small.dds"
-		noOfFrames = 17
+		noOfFrames = 16
 		effectFile = "gfx\\FX\\buttonstate2.fx"
 		norefcount = yes
 	}
@@ -59,7 +59,7 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_pops_mini"
 		texturefile = "gfx\\interface\\pops_mini.tga"
-		noOfFrames = 17
+		noOfFrames = 16
 		effectFile = "gfx\\FX\\buttonstate.fx"
 		norefcount = yes
 	}
@@ -634,8 +634,8 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
-			m = { 105 165 10 }
+			M = { 105 165 10 }
+			m = { 230 255 230 }
 		}
 	}
 	############################
@@ -653,8 +653,8 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
-			m = { 105 165 10 }
+			M = { 105 165 10 }
+			m = { 230 255 230 }
 		}
 	}
 
@@ -750,7 +750,6 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 
@@ -790,7 +789,6 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 
@@ -1003,7 +1001,6 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 
@@ -1026,7 +1023,6 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 
@@ -1042,7 +1038,6 @@ bitmapfonts = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 
@@ -1072,7 +1067,6 @@ bitmapfont = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 
@@ -1095,7 +1089,6 @@ bitmapfont = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 	bitmapfont = {
@@ -1127,7 +1120,6 @@ bitmapfont = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 bitmapfont = {
@@ -1149,7 +1141,6 @@ bitmapfont = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 	bitmapfont = {
@@ -1177,7 +1168,6 @@ bitmapfont = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 bitmapfont = {
@@ -1199,7 +1189,6 @@ bitmapfont = {
 			b = { 0 0 0 }
 			g = { 176 176 176 }
 			Y = { 255 189 0 }
-			l = { 50 150 255 }
 		}
 	}
 bitmapfont = {
