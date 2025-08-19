@@ -136,7 +136,6 @@ BZD;Bayazid;;;;;;;;;;;;;x
 CAL;California;Californie;Kalifornische Republik;;;;;;;;;;;x
 CAM;Cambodia;Cambodge;Kambodscha;;;;;;;;;;;x
 CAN;Canada;Canada;Kanada;;;;;;;;;;;x
-CA2;Canadian Claims;;;;;;;;;;;;;x
 CAR;Central African Republic;;;;;;;;;;;;;x
 CAS;Cascadia;;;;;;;;;;;;;x
 CAT;Catalonia;Catalogne;Katalonien;;;;;;;;;;;x
@@ -151,7 +150,7 @@ CHH;Chhatarpur;;;;;;;;;;;;;x
 CHI;China;;;;;;;;;;;;;x
 CHK;Champassak;Champassak;Champassak;;;;;;;;;;;x
 CHL;Chile;Chili;Chile;;;;;;;;;;;x
-CHO;Chugoku;;;;;;;;;;;;;x
+CHO;Choshu;;;;;;;;;;;;;x
 CHP;Chiapas;;;;;;;;;;;;;x
 CHY;Chechnya;;;;;;;;;;;;;x
 C0R;Abzakh;;;;;;;;;;;;;x
@@ -206,7 +205,7 @@ D07;Free State of $REGION$;;Der Freistaat von $REGION$;;;;;;;;;;;x
 D08;Grand State of $REGION$;;Der Großstaat von $REGION$;;;;;;;;;;;x
 D09;State of $REGION$;;Der Staat von $REGION$;;;;;;;;;;;x
 D10;Principality of $REGION$;;Das Fürstentum von $REGION$;;;;;;;;;;;x
-DAG;Dagestan;;;;;;;;;;;;;x		
+DAG;Dagestan;;;;;;;;;;;;;x
 DA0;Avaristan;;;;;;;;;;;;;x
 DA1;Kaytag;;;;;;;;;;;;;x
 DA2;Ghazikumukh;;;;;;;;;;;;;x
@@ -242,8 +241,8 @@ DRV;Darvaz;;;;;;;;;;;;;x
 DUB;Dubai;;;;;;;;;;;x
 DUR;Pashtunistan;;;;;;;;;;;;;x
 DZG;Danzig;Dantzig;Danzig;;;;;;;;;;;x
-ECU;Ecuador;Équateur;Ekuador;;;;;;;;;;;x
-EGY;Egypt;Égypte;Ägypten;;;;;;;;;;;x
+ECU;Ecuador;ï¿½quateur;Ekuador;;;;;;;;;;;x
+EGY;Egypt;ï¿½gypte;Ägypten;;;;;;;;;;;x
 EIC;East India Company;;;;;;;;;;;;;x
 ELS;El Salvador;Salvador;El Salvador;;;;;;;;;;;x
 ENG;United Kingdom;Angleterre;Großbritannien;;;;;;;;;;;x
@@ -331,19 +330,229 @@ IME;Imereti;;;;;;;;;;;;;x
 IMG;Inner Mongolia;;;;;;;;;;;;;x
 IND;Indore;Indore;Indore;;;;;;;;;;;x
 INO;Indonesia;Indonésie;Indonesien;;;;;;;;;;;x
-ION;Ionian Islands;Éles Ioniennes;Ionische Inseln;;;;;;;;;;;x
+ION;Ionian Islands;ï¿½les Ioniennes;Ionische Inseln;;;;;;;;;;;x
 IOT;Chagos Islands;;;;;;;;;;;;;x
 IRE;Ireland;Irlande;Irland;;;;;;;;;;;x
 IRQ;Iraq;Iraq;Irak;;;;;;;;;;;x
-ISR;Israel;Israél;Israel;;;;;;;;;;;x
+ISR;Israel;Israï¿½l;Israel;;;;;;;;;;;x
 ITA;Italy;Italie;Italien;;;;;;;;;;;x
 ITP;Italy;;;;;;;;;;;;;x
 ITS;Italy;;;;;;;;;;;;;x
 IVC;Ivory Coast;;;;;;;;;;;;;x
 IZH;Ingria;;;;;;;;;;;;;x
+#J00;Tanegashima;;;;;;;;;;;;;x
+#J01;Miyakonojo;;;;;;;;;;;;;x
+#J02;Takanabe;;;;;;;;;;;;;x
+#J03;Obi;;;;;;;;;;;;;x
+#J04;Nobeoka;;;;;;;;;;;;;x
+#J05;Sadowara;;;;;;;;;;;;;x
+#J06;Hitoyoshi;;;;;;;;;;;;;x
+#J07;Kumamoto;;;;;;;;;;;;;x
+#J08;Uto;;;;;;;;;;;;;x
+#J09;Tsushima-Fuchu;;;;;;;;;;;;;x
+#J10;Hirado;;;;;;;;;;;;;x
+#J11;Fukue;;;;;;;;;;;;;x
+#J12;Omura;;;;;;;;;;;;;x
+#J13;Shimabara;;;;;;;;;;;;;x
+#J14;Saga;;;;;;;;;;;;;x
+#J15;Kashima;;;;;;;;;;;;;x
+#J16;Ogi;;;;;;;;;;;;;x
+#J17;Karatsu;;;;;;;;;;;;;x
+#J18;Yanagawa;;;;;;;;;;;;;x
+#J19;Kurume;;;;;;;;;;;;;x
+#J20;Fukuoka;;;;;;;;;;;;;x
+#J21;Akizuki;;;;;;;;;;;;;x
+#J22;Kokura;;;;;;;;;;;;;x
+#J23;Nakatsu;;;;;;;;;;;;;x
+#J24;Mori;;;;;;;;;;;;;x
+#J25;Kitsuki;;;;;;;;;;;;;x
+#J26;Hiji;;;;;;;;;;;;;x
+#J27;Funai;;;;;;;;;;;;;x
+#J28;Usuki;;;;;;;;;;;;;x
+#J29;Saeki;;;;;;;;;;;;;x
+#J30;Oka;;;;;;;;;;;;;x
+#J31;Tokushima;;;;;;;;;;;;;x
+#J32;Takamatsu;;;;;;;;;;;;;x
+#J33;Marugame;;;;;;;;;;;;;x
+#J34;Tadotsu;;;;;;;;;;;;;x
+#J35;Saijo;;;;;;;;;;;;;x
+#J36;Iyo-Matsuyama;;;;;;;;;;;;;x
+#J37;Imabari;;;;;;;;;;;;;x
+#J38;Ozu;;;;;;;;;;;;;x
+#J39;Uwajima;;;;;;;;;;;;;x
+#J40;Iyo-Yoshida;;;;;;;;;;;;;x
+#J41;Chofu;;;;;;;;;;;;;x
+#J42;Tokuyama;;;;;;;;;;;;;x
+#J43;Iwakuni;;;;;;;;;;;;;x
+#J44;Tsuwano;;;;;;;;;;;;;x
+#J45;Hamada;;;;;;;;;;;;;x
+#J46;Matsue;;;;;;;;;;;;;x
+#J47;Hirose;;;;;;;;;;;;;x
+#J48;Tottori;;;;;;;;;;;;;x
+#J49;Hiroshima;;;;;;;;;;;;;x
+#J50;Fukuyama;;;;;;;;;;;;;x
+#J51;Niimi;;;;;;;;;;;;;x
+#J52;Bitchu-Matsuyama;;;;;;;;;;;;;x
+#J53;Nariwa;;;;;;;;;;;;;x
+#J54;Ashimori;;;;;;;;;;;;;x
+#J55;Asao;;;;;;;;;;;;;x
+#J56;Okada;;;;;;;;;;;;;x
+#J57;Niwase;;;;;;;;;;;;;x
+#J58;Kamogata;;;;;;;;;;;;;x
+#J59;Okayama;;;;;;;;;;;;;x
+#J60;Mimasaka-Katsuyama;;;;;;;;;;;;;x
+#J61;Tsuyama;;;;;;;;;;;;;x
+#J62;Kishu;;;;;;;;;;;;;x
+#J63;Tamaru;;;;;;;;;;;;;x
+#J64;Toba;;;;;;;;;;;;;x
+#J65;Tsu;;;;;;;;;;;;;x
+#J66;Ise-Kameyama;;;;;;;;;;;;;x
+#J67;Kanbe;;;;;;;;;;;;;x
+#J68;Hatta;;;;;;;;;;;;;x
+#J69;Komono;;;;;;;;;;;;;x
+#J70;Kuwana;;;;;;;;;;;;;x
+#J71;Nagashima;;;;;;;;;;;;;x
+#J72;Hikone;;;;;;;;;;;;;x
+#J73;Omi-Miyagawa;;;;;;;;;;;;;x
+#J74;Omizo;;;;;;;;;;;;;x
+#J75;Yamakami;;;;;;;;;;;;;x
+#J76;Minakuchi;;;;;;;;;;;;;x
+#J77;Mikami;;;;;;;;;;;;;x
+#J78;Zeze;;;;;;;;;;;;;x
+#J79;Yodo;;;;;;;;;;;;;x
+#J80;Yagyu;;;;;;;;;;;;;x
+#J81;Koriyama;;;;;;;;;;;;;x
+#J82;Yanagimoto;;;;;;;;;;;;;x
+#J83;Takatori;;;;;;;;;;;;;x
+#J84;Yamato-Shinjo;;;;;;;;;;;;;x
+#J85;Tawaramoto;;;;;;;;;;;;;x
+#J86;Koizumi;;;;;;;;;;;;;x
+#J87;Tannan;;;;;;;;;;;;;x
+#J88;Sayama;;;;;;;;;;;;;x
+#J89;Kishiwada;;;;;;;;;;;;;x
+#J90;Hakata;;;;;;;;;;;;;x
+#J91;Takatsuki;;;;;;;;;;;;;x
+#J92;Asada;;;;;;;;;;;;;x
+#J93;Amagasaki;;;;;;;;;;;;;x
+#J94;Akashi;;;;;;;;;;;;;x
+#J95;Himeji;;;;;;;;;;;;;x
+#J96;Ako;;;;;;;;;;;;;x
+#J97;Tatsuno;;;;;;;;;;;;;x
+#J98;Yamasaki;;;;;;;;;;;;;x
+#J99;Fukumoto;;;;;;;;;;;;;x
+#JA0;Mikusa;;;;;;;;;;;;;x
+#JA1;Ono;;;;;;;;;;;;;x
+#JA2;Sanda;;;;;;;;;;;;;x
+#JA3;Sasayama;;;;;;;;;;;;;x
+#JA4;Tanba-Kameyama;;;;;;;;;;;;;x
+#JA5;Sonobe;;;;;;;;;;;;;x
+#JA6;Kashiwabara;;;;;;;;;;;;;x
+#JA7;Ayabe;;;;;;;;;;;;;x
+#JA8;Fukuchiyama;;;;;;;;;;;;;x
+#JA9;Izushi;;;;;;;;;;;;;x
+#JB0;Toyooka;;;;;;;;;;;;;x
+#JB1;Muraoka;;;;;;;;;;;;;x
+#JB2;Miyazu;;;;;;;;;;;;;x
+#JB3;Murakami;;;;;;;;;;;;;x
+#JB4;Kurokawa;;;;;;;;;;;;;x
+#JB5;Shibata;;;;;;;;;;;;;x
+#JB6;Muramatsu;;;;;;;;;;;;;x
+#JB7;Mineoka;;;;;;;;;;;;;x
+#JB8;Echigo-Nagaoka;;;;;;;;;;;;;x
+#JB9;Yoita;;;;;;;;;;;;;x
+#JC0;Shiiya;;;;;;;;;;;;;x
+#JC1;Takada;;;;;;;;;;;;;x
+#JC2;Itoigawa;;;;;;;;;;;;;x
+#JC3;Toyama;;;;;;;;;;;;;x
+#JC4;Daishoji;;;;;;;;;;;;;x
+#JC5;Maruoka;;;;;;;;;;;;;x
+#JC6;Fukui;;;;;;;;;;;;;x
+#JC7;Sabae;;;;;;;;;;;;;x
+#JC8;Ôno;;;;;;;;;;;;;x
+#JC9;Echizen-Katsuyama;;;;;;;;;;;;;x
+#JD0;Tsuruga;;;;;;;;;;;;;x
+#JD1;Obama;;;;;;;;;;;;;x
+#JD2;Gujô;;;;;;;;;;;;;x
+#JD3;Owari;;;;;;;;;;;;;x
+#JD4;Ôgaki;;;;;;;;;;;;;x
+#JD5;Kanô;;;;;;;;;;;;;x
+#JD6;Takasu;;;;;;;;;;;;;x
+#JD7;Naegi;;;;;;;;;;;;;x
+#JD8;Iwamura;;;;;;;;;;;;;x
+#JD9;Iiyama;;;;;;;;;;;;;x
+#JE0;Suzaka;;;;;;;;;;;;;x
+#JE1;Matsushiro;;;;;;;;;;;;;x
+#JE2;Ueda;;;;;;;;;;;;;x
+#JE3;Matsumoto;;;;;;;;;;;;;x
+#JE4;Komoro;;;;;;;;;;;;;x
+#JE5;Iwamurada;;;;;;;;;;;;;x
+#JE6;Okutono;;;;;;;;;;;;;x
+#JE7;Suwa;;;;;;;;;;;;;x
+#JE8;Takatô;;;;;;;;;;;;;x
+#JE9;Iida;;;;;;;;;;;;;x
+#JF0;Koromo;;;;;;;;;;;;;x
+#JF1;Kariya;;;;;;;;;;;;;x
+#JF2;Nishibata;;;;;;;;;;;;;x
+#JF3;Nishio;;;;;;;;;;;;;x
+#JF4;Okazaki;;;;;;;;;;;;;x
+#JF5;Tahara;;;;;;;;;;;;;x
+#JF6;Yoshida;;;;;;;;;;;;;x
+#JF7;Shinshiro;;;;;;;;;;;;;x
+#JF8;Hamamatsu;;;;;;;;;;;;;x
+#JF9;Yokosuka;;;;;;;;;;;;;x
+#JG0;Kakegawa;;;;;;;;;;;;;x
+#JG1;Sagara;;;;;;;;;;;;;x
+#JG2;Numazu;;;;;;;;;;;;;x
+#JG3;Odawara;;;;;;;;;;;;;x
+#JG4;Matsuoka;;;;;;;;;;;;;x
+#JG5;Mito;;;;;;;;;;;;;x
+#JG6;Kurobane;;;;;;;;;;;;;x
+#JG7;Ôtawara;;;;;;;;;;;;;x
+#JG8;Utsunomiya;;;;;;;;;;;;;x
+#JG9;Karasuyama;;;;;;;;;;;;;x
+#JH0;Kasama;;;;;;;;;;;;;x
+#JH1;Hitachi-Shishido;;;;;;;;;;;;;x
+#JH2;Hitachi-Fuchu;;;;;;;;;;;;;x
+#JH3;Tsuchiura;;;;;;;;;;;;;x
+#JH4;Asô;;;;;;;;;;;;;x
+#JH5;Takaoka;;;;;;;;;;;;;x
+#JH6;Sakura;;;;;;;;;;;;;x
+#JH7;Oyumi;;;;;;;;;;;;;x
+#JH8;Tsurumaki;;;;;;;;;;;;;x
+#JH9;Kaifuchi;;;;;;;;;;;;;x
+#JI0;Sanuki;;;;;;;;;;;;;x
+#JI1;Awa-Katsuyama;;;;;;;;;;;;;x
+#JI2;Tateyama;;;;;;;;;;;;;x
+#JI3;Kururi;;;;;;;;;;;;;x
+#JI4;Ôtaki;;;;;;;;;;;;;x
+#JI5;Ichinomiya;;;;;;;;;;;;;x
+#JI6;Ushiku;;;;;;;;;;;;;x
+#JI7;Shimotsuma;;;;;;;;;;;;;x
+#JI8;Shimodate;;;;;;;;;;;;;x
+#JI9;Yuki;;;;;;;;;;;;;x
+#JJ0;Sekiyado;;;;;;;;;;;;;x
+#JJ1;Koga;;;;;;;;;;;;;x
+#JJ2;Mibu;;;;;;;;;;;;;x
+#JJ3;Sano;;;;;;;;;;;;;x
+#JJ4;Tatebayashi;;;;;;;;;;;;;x
+#JJ5;Ashikaga;;;;;;;;;;;;;x
+#JJ6;Oshi;;;;;;;;;;;;;x
+#JJ7;Kawagoe;;;;;;;;;;;;;x
+#JJ8;Iwatsuki;;;;;;;;;;;;;x
+#JJ9;Mutsuura;;;;;;;;;;;;;x
+#JK0;Ogino Yamanaka;;;;;;;;;;;;;x
+#JK1;Okabe;;;;;;;;;;;;;x
+#JK2;Isekaki;;;;;;;;;;;;;x
+#JK3;Takasaki;;;;;;;;;;;;;x
+#JK4;Yoshii;;;;;;;;;;;;;x
+#JK5;Obata;;;;;;;;;;;;;x
+#JK6;Nanokaichi;;;;;;;;;;;;;x
+#JK7;Annaka;;;;;;;;;;;;;x
+#JK8;Numata;;;;;;;;;;;;;x
+#JK9;Omigawa;;;;;;;;;;;;;x
 JAI;Jaipur;Jaipur;Jaipur;;;;;;;;;;;x
 JAL;Futa Jallon;;;;;;;;;;;;;x
-JAM;Jamaica;Jamaéque;Jamaica;;;;;;;;;;;x
+JAM;Jamaica;Jamaï¿½que;Jamaica;;;;;;;;;;;x
 JAN;Jan Mayen;Jan Mayen;Jan Mayen;;;;;;;;;;;x
 JAP;Japan;Japon;Japan;;;;;;;;;;;x
 JAS;Jaisalmer;Jaisalmer;Jaisalmer;;;;;;;;;;;x
@@ -357,7 +566,7 @@ JOR;Jordan;;;;;;;;;;;;;x
 JUJ;Jujuy;;;;;;;;;;;x
 JUN;Junagadh;;;;;;;;;;;;;x
 KAF;Kaffa;Kaffa;Kaffa;;;;;;;;;;;x
-KAG;Ishikawa;;;;;;;;;;;;;x
+KAG;Kaga;;;;;;;;;;;;;x
 KAL;Kalat;Kalat;Kalat;;;;;;;;;;;x
 KAM;Kamchatka;;;;;;;;;;;;;x
 KAR;Karen;;;;;;;;;;;;;x
@@ -435,7 +644,7 @@ LPL;United Provinces;;;;;;;;;;;;;x
 LRJ;La Rioja;;;;;;;;;;;x
 LSK;Alaska;;;;;;;;;;;;;x
 LUA;Luang Prabang;Luang Prabang;Luang Prabang;;;;;;;;;;;x
-LUB;Lübeck;Lébeck;Lübeck;;;;;;;;;;;x
+LUB;Lübeck;Lï¿½beck;Lübeck;;;;;;;;;;;x
 LUC;Lucca;Lucques;Lucca;;;;;;;;;;;x
 LUN;Lunda;Lunda;Lunda;;;;;;;;;;;x
 LUW;Luwu;;;;;;;;;;;;;x
@@ -464,7 +673,6 @@ MEC;Mecklenburg-Schwerin;Mecklenbourg;Mecklenburg;;;;;;;;;;;x
 MEI;Saxe-Meiningen;Saxe-Meiningen;Sachsen-Meiningen;;;;;;;;;;;x
 MEW;Mewar;Mewar;Mewar;;;;;;;;;;;x
 MEX;Mexico;Mexique;Mexiko;;;;;;;;;;;x
-ME2;Mexican Claims;;;;;;;;;;;;;x
 MGH;Maghreb;;;;;;;;;;;;;x
 MGL;Mongolia;Mongolie;Mongolei;;;;;;;;;;;x
 MHR;Mahra;;;;;;;;;;;;;x
@@ -482,9 +690,9 @@ MLY;Malaysia;;;;;;;;;;;;;x
 MNC;Monaco;Monaco;Monaco;;;;;;;;;;;x
 MNG;Mongo;Mongo;Mongo;;;;;;;;;;;x
 MNP;Manipur;;;;;;;;;;;;;x
-MOD;Modena;Modéne;Modena;;;;;;;;;;;x
+MOD;Modena;Modï¿½ne;Modena;;;;;;;;;;;x
 MOL;Moldavia;Moldavie;Moldawien;;;;;;;;;;;x
-MON;Montenegro;Monténégro;Montenegro;;;;;;;;;;;x
+MON;Montenegro;Montï¿½nï¿½gro;Montenegro;;;;;;;;;;;x
 MOR;Morocco;Maroc;Marokko;;;;;;;;;;;x
 MOS;Mossi;Mossi;Mossi;;;;;;;;;;;x
 MOZ;Mozambique;;;;;;;;;;;;;x
@@ -496,7 +704,8 @@ MSK;Misquito Coast;;;;;;;;;;;;;x
 MSN;Misiones;;;;;;;;;;;;;x
 MSS;Samos;;;;;;;;;;;;;x
 MST;Mecklenburg-Strelitz;;;;;;;;;;;;;x
-MTC;Métis Confederacy;Confédération métisse;Metis-Konföderation;;;;;;;;;;;x
+MTC;Métis Confederacy;Confï¿½dï¿½ration mï¿½tisse;Metis-Konföderation;;;;;;;;;;;x
+MTM;Matsumae;;;;;;;;;;;;;x
 MTQ;Martinique;;;;;;;;;;;;;x
 MUD;Mudhol;;;;;;;;;;;;;x
 MUG;Mughalistan;Mogholistan;Mughalistan;;;;;;;;;;;x
@@ -513,23 +722,23 @@ NBR;New Brunswick;Terre-Neuve;Neufundland;;;;;;;;;;;x
 NCT;Neuchatel;;;;;;;;;;;;;x
 NEJ;Nejd;Nejd;Nejd;;;;;;;;;;;x
 NEN;New England;Nouvelle-Angleterre;Neuengland;;;;;;;;;;;x
-NEP;Nepal;Népal;Nepal;;;;;;;;;;;x
+NEP;Nepal;Nï¿½pal;Nepal;;;;;;;;;;;x
 NET;Netherlands;Pays-Bas;Niederlande;;;;;;;;;;;x
 NEW;Newfoundland;Terre-Neuve;Neufundland;;;;;;;;;;;x
 NGA;Nagalim;;;;;;;;;;;;;x
-NGF;North German Federation;Confédération de l'Allemagne du Nord;Norddeutscher Bund;;;;;;;;;;;x
+NGF;North German Federation;Confï¿½dï¿½ration de l'Allemagne du Nord;Norddeutscher Bund;;;;;;;;;;;x
 NGR;Nigeria;;;;;;;;;;;;;x
 NIA;Nianjun;;;;;;;;;;;;;x
 NIC;Nicaragua;Nicaragua;Nicaragua;;;;;;;;;;;x
 NIG;Niger;;;;;;;;;;;;;x
 NKO;Nkore;;;;;;;;;;;;;x
 NMB;Namibia;;;;;;;;;;;;;x
-NOR;Norway;Norvége;Norwegen;;;;;;;;;;;x
+NOR;Norway;Norvï¿½ge;Norwegen;;;;;;;;;;;x
 NPL;Naples;Naples;Naples;;;;;;;;;;;x
 NRM;Normandy;;;;;;;;;;;;;x
 NSC;Nova Scotia;;;;;;;;;;;;;x
 NYE;North Yemen;;;;;;;;;;;;;x
-NZL;New Zealand;Nouvelle-Zélande;Neuseeland;;;;;;;;;;;x
+NZL;New Zealand;Nouvelle-Zï¿½lande;Neuseeland;;;;;;;;;;;x
 NZF;Nouvelle-Zélande;;;;;;;;;;;;;x
 OAX;Oaxaca;;;;;;;;;;;;;x
 OCC;Occitania;Occitanie;Occitania;;;;;;;;;;;x
@@ -548,7 +757,7 @@ PAT;Patani;;;;;;;;;;;;;x
 PBC;Peru-Bolivia;;;;;;;;;;;;;x
 PEI;Prince Edward Island;;;;;;;;;;;;;x
 PER;Iran;Perse;Persien;;;;;;;;;;;x
-PEU;Peru;Pérou;Peru;;;;;;;;;;;x
+PEU;Peru;Pï¿½rou;Peru;;;;;;;;;;;x
 PGG;Pingnan Guo;;;;;;;;;;;;;x
 PHG;Pahang;;;;;;;;;;;;;x
 PHL;Philippines;Philippines;Philippinen;;;;;;;;;;;x
@@ -575,7 +784,7 @@ PZN;Poznan;Poznan;Poznan;;;;;;;;;;;x
 QAT;Qatar;;;;;;;;;;;;;x
 QCI;Queen Charlotte Islands;;;;;;;;;;;;;x
 QNG;Qing;;;;;;;;;;;;;x
-QUE;Quebec;Québec;Quebec;;;;;;;;;;;x
+QUE;Quebec;Quï¿½bec;Quebec;;;;;;;;;;;x
 RAJ;Rajputana;;;;;;;;;;;;;x
 RAM;Rampur;;;;;;;;;;;;;x
 RAS;Ras Al Khaimah;;;;;;;;;;;x
@@ -597,8 +806,8 @@ SPL;São Paulo;;;;;;;;;;;;;x
 MTG;Transatlantic Republic of Mato Grosso;;;;;;;;;;;;;x
 RHI;Rhineland;Rhénanie;Rheinland;;;;;;;;;;;x
 RHO;Southern Rhodesia;Rhodésie du sud;Südrhodesien;;;;;;;;;;;x
-RHI;Rhineland;Rhénanie;Rheinland;;;;;;;;;;;x
-RHO;Southern Rhodesia;Rhodésie du sud;Südrhodesien;;;;;;;;;;;x
+RHI;Rhineland;Rhï¿½nanie;Rheinland;;;;;;;;;;;x
+RHO;Southern Rhodesia;Rhodï¿½sie du sud;Südrhodesien;;;;;;;;;;;x
 RIA;Riau-Lingga;;;;;;;;;;;;;x
 RJK;Rajkot;;;;;;;;;;;;;x
 RLE;Reuss-Lobenstein-Ebersdorf;;;;;;;;;;;;;x
@@ -610,29 +819,29 @@ RPP;Rajpipla;;;;;;;;;;;;;x
 RSR;Reuss Elder Line;;;;;;;;;;;;;x
 RUM;Eastern Rumelia;;;;;;;;;;;;;x
 RUS;Russia;Russie;Russland;;;;;;;;;;;x
-RUT;Ruthenia;Ruthénie;Ruthenien;;;;;;;;;;;x
+RUT;Ruthenia;Ruthï¿½nie;Ruthenien;;;;;;;;;;;x
 RWA;Rwanda;;;;;;;;;;;;;x
 RYU;Ryukyu;;;;;;;;;;;;;x
 SAA;Saarland;Sarre;Saarland;;;;;;;;;;;x
 SAF;South Africa;Afrique du Sud;Südafrika;;;;;;;;;;;x
 SAK;Siak;;;;;;;;;;;;;x
 SAM;Sisam Imëreti;;;;;;;;;;;;;x
-SAR;Sardinia-Piedmont;Piémont-Sardaigne;Sardinien-Piemont;;;;;;;;;;;x
-SAT;Kyushu;;;;;;;;;;;;;x
+SAR;Sardinia-Piedmont;Piï¿½mont-Sardaigne;Sardinien-Piemont;;;;;;;;;;;x
+SAT;Satsuma;;;;;;;;;;;;;x
 SAX;Saxony;Saxe;Sachsen;;;;;;;;;;;x
 SBA;Buenos Aires;;;;;;;;;;;;;x
 SBS;Sambas;;;;;;;;;;;;;x
 SCA;Scandinavia;Scandinavie;Skandinavien;;;;;;;;;;;x
 SCH;Schleswig;Slesvig;Schleswig;;;;;;;;;;;x
 SCL;Schaumburg-Lippe;;;;;;;;;;;;;x
-SCO;Scotland;Écosse;Schottland;;;;;;;;;;;x
+SCO;Scotland;ï¿½cosse;Schottland;;;;;;;;;;;x
 SDB;Sonderbund;;;;;;;;;;;;;x
 SDE;Santiago del Estero;;;;;;;;;;;x
 SEG;Bamana Empire;;;;;;;;;;;;;x
-SEN;Tohoku;;;;;;;;;;;;;x
+SEN;Sendai;;;;;;;;;;;;;x
 SER;Serbia;Serbie;Serbien;;;;;;;;;;;x
 SEY;Seychelles;;;;;;;;;;;;;x
-SGF;South German Federation;États de l'Allemagne du Sud;Süddeutscher Bund;;;;;;;;;;;x
+SGF;South German Federation;ï¿½tats de l'Allemagne du Sud;Süddeutscher Bund;;;;;;;;;;;x
 SGM;Hohenzollern-Sigmaringen;;;;;;;;;;;;;x
 SGP;Singapore;;;;;;;;;;;;;x
 SHA;Shan;;;;;;;;;;;;;x
@@ -654,10 +863,10 @@ SJN;San Juan;;;;;;;;;;;x
 SLA;Selimbau;;;;;;;;;;;;;x
 SLE;Sierra Leone;;;;;;;;;;;;;x
 SLG;Selangor;;;;;;;;;;;;;x
-SLO;Slovenia;Slovénie;Slowenien;;;;;;;;;;;x
+SLO;Slovenia;Slovï¿½nie;Slowenien;;;;;;;;;;;x
 SLS;Silesia;;;;;;;;;;;;;x
 SLT;Salta;;;;;;;;;;;x
-SLU;Slavia;;;;;;;;;;;x
+SLU;San Luis;;;;;;;;;;;x
 SLV;Slovakia;Slovaquie;Slowakei;;;;;;;;;;;x
 SLW;Sulawesi;;;;;;;;;;;;;x
 SMO;Samoa;;;;;;;;;;;;;x
@@ -691,7 +900,7 @@ SVA;Svaneti;;;;;;;;;;;;;x
 SV0;Free Svaneti;;;;;;;;;;;;;x
 SVY;Savoy;;;;;;;;;;;;;x
 SWA;Swat;;;;;;;;;;;;;x
-SWE;Sweden;Suéde;Schweden;;;;;;;;;;;x
+SWE;Sweden;Suï¿½de;Schweden;;;;;;;;;;;x
 SWG;Schwarzburg-Sondershausen;;;;;;;;;;;;;x
 SWH;Schleswig-Holstein;;;;;;;;;;;;;x
 SWI;Switzerland;Suisse;Schweiz;;;;;;;;;;;x
@@ -723,7 +932,7 @@ TNZ;Tanganyika;;;;;;;;;;;;;x
 TOG;Togo;;;;;;;;;;;;;x
 TOO;Futa Toro;;;;;;;;;;;;;x
 TOR;Tooro;;;;;;;;;;;;;x
-TOS;Shikoku;;;;;;;;;;;;;x
+TOS;Tosa;;;;;;;;;;;;;x
 TOU;Tukulor Empire;;;;;;;;;;;;;x
 TPG;Heavenly Kingdom;;;;;;;;;;;;;x
 TRA;Travancore;Travancore;Travancore;;;;;;;;;;;x
@@ -735,7 +944,7 @@ TRP;Tripura;;;;;;;;;;;;;x
 TRZ;Trarza;;;;;;;;;;;;;x
 TST;Alto Adige;;;;;;;;;;;;;x
 TSW;Botswana;Botswana;Botswana;;;;;;;;;;;x
-TTB;Trinidad and Tobago;Trinité & Tobago;Trinidad & Tobago;;;;;;;;;;;x
+TTB;Trinidad and Tobago;Trinitï¿½ & Tobago;Trinidad & Tobago;;;;;;;;;;;x
 TTN_ADJ;Parsig;;;;;;;;;;;;;x
 TTN_absolute_monarchy2_ADJ;Caucaso-Albanian;;;;;;;;;;;;;x
 TTN_democracy2_ADJ;Caucaso-Albanian;;;;;;;;;;;;;x
@@ -762,8 +971,7 @@ URA;Ural Republic;;;;;;;;;;;;;x
 URM;Urmia;;;;;;;;;;;;;x
 URP;United Principalities;;;;;;;;;;;;;x
 URU;Uruguay;Uruguay;Uruguay;;;;;;;;;;;x
-USA;United States of America;États-Unis;USA;;;;;;;;;;;x
-US2;American Claims;;;;;;;;;;;;;x
+USA;United States of America;ï¿½tats-Unis;USA;;;;;;;;;;;x
 USS;United States of South America;;;;;;;;;;;;;x
 UTI;Territory Exchange;;;;;;;;;;;;;x
 U01;Assimilation Campaign;;;;;;;;;;;;;x

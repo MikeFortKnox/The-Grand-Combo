@@ -1,6 +1,6 @@
-owner = TOS
-controller = TOS
-add_core = TOS
+owner = J31
+controller = J31
+add_core = J31
 add_core = TKG
 trade_goods = timber
 life_rating = 35

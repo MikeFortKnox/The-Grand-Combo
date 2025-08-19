@@ -1,0 +1,7 @@
+owner = JE3
+controller = JE3
+add_core = JE3
+add_core = TKG
+trade_goods = fruit
+life_rating = 35
+#terrain = small_island

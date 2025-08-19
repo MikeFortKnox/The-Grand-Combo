@@ -1,7 +1,7 @@
-owner = CHO
-controller = CHO
-add_core = CHO
+owner = J00
+controller = J00
+add_core = J00
 add_core = TKG
-trade_goods = fruit
+trade_goods = tobacco
 life_rating = 35
 #terrain = small_island

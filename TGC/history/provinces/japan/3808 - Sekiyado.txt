@@ -1,0 +1,7 @@
+owner = JJ0
+controller = JJ0
+add_core = JJ0
+add_core = TKG
+trade_goods = fruit
+life_rating = 35
+#terrain = small_island

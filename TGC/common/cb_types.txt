@@ -136,11 +136,6 @@ peace_order = {
 	war_of_the_americas_ussa
 	french_conquest_of_canada_france
 	french_conquest_of_canada_uk
-	crush_the_commonwealth
-	restore_the_commonwealth
-	reclaim_the_commonwealth
-	liberate_poles
-	take_claim
 }
 
 # Great War CB's
@@ -539,7 +534,10 @@ restore_austrian_empire = {
 		THIS = {
 			tag = AUS
 			rank = 16
-			has_country_flag = agressive_tag
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
 		}
 		neighbour = THIS
 		any_owned_province = { #Opt
@@ -634,7 +632,10 @@ restore_america = {
 		OR = {
 			THIS = { ai = no }
 			THIS = {
-				has_country_flag = agressive_tag
+				OR = {
+					war_policy = pro_military
+					war_policy = jingoism
+				}
 			}
 			war_with = THIS
 		}
@@ -696,12 +697,26 @@ claim_holy_land = {
 		THIS = {
 			ai = no
 			is_greater_power = yes
-			has_country_flag = can_claim_holy_land
+			OR = {
+				tag = FRA
+				tag = RHI
+				tag = ENG
+				tag = AUS
+				tag = KUK
+				tag = BYZ
+				is_culture_group = east_slavic
+				is_culture_group = south_slavic
+				is_culture_group = italian
+				is_culture_group = iberian
+			}
 			has_global_flag = abandoned_holy_land
 		}
 		OR = {
 			THIS = {
-				has_country_flag = agressive_tag
+				OR = {
+					war_policy = pro_military
+					war_policy = jingoism
+				}
 			}
 			war_with = THIS
 		}
@@ -787,6 +802,7 @@ unification_casus_belli = {
 			is_cultural_union = no
 		}
 		OR = {
+			NOT = { is_culture_group = THIS }
 			AND = {
 				war_with = THIS
 				is_culture_group = THIS
@@ -799,7 +815,6 @@ unification_casus_belli = {
 				THIS = { NOT = { tag = LIV } }
 				THIS = { NOT = { tag = COU } }
 			}
-			NOT = { is_culture_group = THIS }
 		}
 		any_state = {
 			any_owned_province = {
@@ -1515,95 +1530,85 @@ free_peoples = {
 	allowed_states = {
 		OR = {
 			AND = {
-				THIS = { ai = no }
 				any_owned_province = { is_core = FROM }
-			}
-			AND = {
-				FROM = { exists = yes }
-				any_owned_province = { is_core = FROM }
-			}
-			AND = {
-				FROM = { involved_in_crisis = yes }
-				any_owned_province = { is_core = FROM }
-			}
-			AND = {
-				FROM = { exists = no }
-				THIS = { civilized = no }
-				any_owned_province = {
-					is_core = FROM
-					OR = {
-						any_neighbor_province = { owned_by = THIS }
-						controlled_by = THIS
-					}
+				OR = {
+					THIS = { ai = no }
+					FROM = { exists = yes }
+					FROM = { involved_in_crisis = yes }
 				}
 			}
 			AND = {
 				FROM = { exists = no }
-				THIS = { civilized = yes }
-				FROM = { NOT = { is_culture_group = THIS } }
-				any_owned_province = {
-					is_core = FROM
-					OR = {
-						any_neighbor_province = { owned_by = THIS }
-						any_neighbor_province = {
-							owner = {
-								OR = {
-									in_sphere = THIS
-									alliance_with = THIS
-								}
+				OR = {
+					AND = {
+						THIS = { civilized = no }
+						any_owned_province = {
+							is_core = FROM
+							OR = {
+								any_neighbor_province = { owned_by = THIS }
+								controlled_by = THIS
 							}
 						}
-						controlled_by = THIS
+					}
+					AND = {
+						THIS = { civilized = yes }
+						OR = {
+							AND = {
+								FROM = { NOT = { is_culture_group = THIS } }
+								any_owned_province = {
+									is_core = FROM
+									OR = {
+										any_neighbor_province = { owned_by = THIS }
+										any_neighbor_province = {
+											owner = {
+												OR = {
+													in_sphere = THIS
+													alliance_with = THIS
+												}
+											}
+										}
+										controlled_by = THIS
+									}
+								}
+							}
+							AND = {
+								THIS = { capital_scope = { continent = europe } }
+								any_owned_province = {
+									continent = europe
+									is_core = FROM
+								}
+							}
+							AND = {
+								THIS = { 
+									capital_scope = { 
+										OR = {
+											continent = north_america
+											continent = south_america
+										}
+									} 
+								}
+								any_owned_province = {
+									OR = {
+										continent = north_america
+										continent = south_america
+									}
+									is_core = FROM
+								}
+							}
+							AND = {
+								THIS = { capital_scope = { continent = asia } }
+								any_owned_province = {
+									continent = asia
+									is_core = FROM
+								}
+							}
+							AND = {
+								FROM = { is_culture_group = THIS }
+								any_owned_province = { is_core = FROM }
+							}
+						}
 					}
 				}
-			}
-			AND = {
-				FROM = { exists = no }
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = europe } }
-				any_owned_province = {
-					continent = europe
-					is_core = FROM
-				}
-			}
-			AND = {
-				FROM = { exists = no }
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = north_america } }
-				any_owned_province = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					is_core = FROM
-				}
-			}
-			AND = {
-				FROM = { exists = no }
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = south_america } }
-				any_owned_province = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					is_core = FROM
-				}
-			}
-			AND = {
-				FROM = { exists = no }
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = asia } }
-				any_owned_province = {
-					continent = asia
-					is_core = FROM
-				}
-			}
-			AND = {
-				FROM = { exists = no }
-				THIS = { civilized = yes }
-				FROM = { is_culture_group = THIS }
-				any_owned_province = { is_core = FROM }
 			}
 		}
 		OR = {
@@ -1849,12 +1854,11 @@ free_allied_cores = {
 	allowed_countries = {
 		any_owned_province = { is_core = FROM }
 		OR = {
-			NOT = { alliance_with = FROM }
 			war_with = THIS
-		}
-		OR = {
-			FROM = { alliance_with = THIS }
-			war_with = THIS
+			AND = {
+				NOT = { alliance_with = FROM }
+				FROM = { alliance_with = THIS }
+			}
 		}
 		FROM = {
 			exists = yes
@@ -1975,12 +1979,11 @@ free_balkans = {
 				tag = MON
 				tag = BUL
 				AND = {
-					tag = BOS
 					THIS = { has_country_flag = oe_refused_congress }
-				}
-				AND = {
-					tag = ALB
-					THIS = { has_country_flag = oe_refused_congress }
+					OR = {
+						tag = BOS
+						tag = ALB
+					}
 				}
 			}
 			OR = {
@@ -3462,7 +3465,7 @@ conquest = {
 		}
 
 		#Non agressive AI will not use this (pacifism or anti_military)
-		THIS = { has_country_flag = agressive_tag }
+		THIS = { NOT = { has_country_flag = non_agressive_ai } }
 
 		#AI will not use this when fighting for hegemony
 		OR = {
@@ -4730,27 +4733,27 @@ gendarme_of_europe = {
 			is_greater_power = yes 
 			has_country_flag = absolute_monarchy_gov
 		}
-		
 	    OR = {
 			THIS = {
 				tag = RUS
 				has_country_modifier = gendarme_of_europe
 			}
 			THIS = { #Player lead Holy Alliance
+				ai = no
 				tag = AUS
 				OR = {
 					ruling_party_ideology = reactionary
 					has_country_modifier = metternich
 				}
-				ai = no
 			}
 		}
 		#Republics and HM's government are valid targets. Could add recent lib revolution reqs
-		NOT = { has_country_flag = absolute_monarchy_gov }
-		NOT = { has_country_flag = semi_constitutional_monarchy_gov }
-		NOT = { has_country_flag = theocracy_gov }
-		NOT = { has_country_flag = dominion_gov }
-		NOT = { has_country_flag = colonial_company_gov }
+		OR = {
+			has_country_flag = constitutional_monarchy_gov
+			has_country_flag = democracy_gov
+			government = bourgeois_dictatorship
+			government = proletarian_dictatorship
+		}
 		NOT = { has_country_flag = dismantle_declared }
 		civilized = yes
 		OR = {
@@ -5240,7 +5243,7 @@ treaty_port_casus_belli = {
 
 	can_use = {
 		has_country_flag = has_treaty_port
-		THIS = { has_country_flag = agressive_tag }
+		THIS = { NOT = { has_country_flag = non_agressive_ai } }
 		THIS = {
 			rank = 20
 			any_owned_province = { port = yes }
@@ -5393,7 +5396,10 @@ colonial_conquest = {
 			is_disarmed = no
 			NOT = { badboy = 0.88 }
 			state_n_government = 1
-			has_country_flag = agressive_tag
+			OR = {
+				war_policy = jingoism
+				war_policy = pro_military
+			}
 			NOT = { has_country_modifier = no_more_war }
 		}
 		OR = {
@@ -5765,65 +5771,62 @@ liberate_puppet = {
 			}
 			AND = {
 				THIS = { civilized = yes }
-				FROM = { NOT = { is_culture_group = THIS } }
-				any_owned_province = {
-					is_core = FROM
-					OR = {
-						any_neighbor_province = { owned_by = THIS }
-						any_neighbor_province = {
-							owner = {
+				OR = {
+					AND = {
+						FROM = { NOT = { is_culture_group = THIS } }
+						any_owned_province = {
+							is_core = FROM
+							OR = {
+								any_neighbor_province = { owned_by = THIS }
+								any_neighbor_province = {
+									owner = {
+										OR = {
+											in_sphere = THIS
+											alliance_with = THIS
+										}
+									}
+								}
+								controlled_by = THIS
+							}
+						}
+					}
+					AND = {
+						THIS = { capital_scope = { continent = europe } }
+						any_owned_province = {
+							continent = europe
+							is_core = FROM
+						}
+					}
+					AND = {
+						THIS = { 
+							capital_scope = { 
 								OR = {
-									in_sphere = THIS
-									alliance_with = THIS
+									continent = north_america
+									continent = south_america
 								}
 							}
 						}
-						controlled_by = THIS
+						any_owned_province = {
+							OR = {
+								continent = north_america
+								continent = south_america
+							}
+							is_core = FROM
+						}
+					}
+					AND = {
+						THIS = { capital_scope = { continent = asia } }
+						any_owned_province = {
+							continent = asia
+							is_core = FROM
+						}
+					}
+					AND = {
+						FROM = { is_culture_group = THIS }
+						any_owned_province = { is_core = FROM }
 					}
 				}
-			}
-			AND = {
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = europe } }
-				any_owned_province = {
-					continent = europe
-					is_core = FROM
-				}
-			}
-			AND = {
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = north_america } }
-				any_owned_province = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					is_core = FROM
-				}
-			}
-			AND = {
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = south_america } }
-				any_owned_province = {
-					OR = {
-						continent = north_america
-						continent = south_america
-					}
-					is_core = FROM
-				}
-			}
-			AND = {
-				THIS = { civilized = yes }
-				THIS = { capital_scope = { continent = asia } }
-				any_owned_province = {
-					continent = asia
-					is_core = FROM
-				}
-			}
-			AND = {
-				THIS = { civilized = yes }
-				FROM = { is_culture_group = THIS }
-				any_owned_province = { is_core = FROM }
+				
 			}
 		}
 		FROM = {
@@ -5831,12 +5834,6 @@ liberate_puppet = {
 				is_cultural_union = no
 				involved_in_crisis = yes
 			}
-		}
-		OR = {
-			FROM = { involved_in_crisis = yes }
-			FROM = { civilized = yes }
-			THIS = { civilized = no }
-			THIS = { ai = no }
 		}
 		OR = {
 			FROM = { involved_in_crisis = yes }
@@ -6430,9 +6427,9 @@ crimean_war_cb = {
 	po_disarmament = yes
 	po_reparations = yes
 
-	on_po_accepted = {
-		set_global_flag = crimean_war_russian_victory
-	}
+	#on_po_accepted = {
+	#	RUS = { set_country_flag = crimean_surrender }
+	#}
 
 	on_add = {}
 
@@ -6467,9 +6464,9 @@ crimean_war_defender = {
 	po_remove_prestige = yes
 	po_status_quo = yes
 
-	on_po_accepted = {
-		set_global_flag = crimean_war_ottoman_victory
-	}
+	#on_po_accepted = {
+	#	set_country_flag = crimean_surrender
+	#}
 
 	on_add = {}
 
@@ -6516,10 +6513,7 @@ mexico_concession_rus = {
 				}
 				NOT = { province_id = 99 }
 			}
-			secede_province = THIS #TODO Add event that transfers this land to LSK
-		}
-		THIS = {
-			country_event = { id = 505000 days = 7 }
+			secede_province = THIS
 		}
 	}
 
@@ -8204,78 +8198,17 @@ new_world_hegemony = {
 	}
 }
 
-# Russian CB to crush the Polish Uprising
-crush_the_commonwealth = {
-	sprite_index = 22
+# Mexican-American War
+crimean_war_cb = {
+	sprite_index = 20
 	is_triggered_only = yes
 	months = 12
 	crisis = no
 	constructing_cb = no
 
 	badboy_factor = 0
-	prestige_factor = 5
-	peace_cost_factor = 1.05
-	penalty_factor = 5
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 1
-	truce_months = 48
-
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	always = no
-
-	can_use = { }
-
-	po_remove_prestige = yes
-
-	po_annex = yes
-
-	on_po_accepted = {
-		set_global_flag = polish_uprising_crushed
-		LIT = {
-			any_owned = {
-				secede_province = RUS
-			}
-		}
-		CPL = {
-			any_owned = {
-				secede_province = RUS
-			}
-		}
-		RUS = {
-			any_owned = {
-				limit = {
-					has_province_modifier = polish_revolt
-				}
-				remove_province_modifier = polish_revolt
-			}
-			any_owned = {
-				remove_core = PLC
-			}
-			country_event = { id = 500048 days = 14 }
-		}
-	}
-
-	on_add = {}
-
-	war_name = WAR_POLAND_UPRISING
-}
-
-# Polish CB for January Uprising
-restore_the_commonwealth = {
-	sprite_index = 9
-	is_triggered_only = yes
-	months = 12
-	crisis = no
-	constructing_cb = no
-
-	badboy_factor = 0
-	prestige_factor = 5
-	peace_cost_factor = 5
+	prestige_factor = 0.5
+	peace_cost_factor = 60
 	penalty_factor = 1
 
 	break_truce_prestige_factor = 1
@@ -8291,356 +8224,14 @@ restore_the_commonwealth = {
 
 	can_use = { }
 
-	po_remove_prestige = yes
+	po_disarmament = yes
+	po_reparations = yes
 
-	on_po_accepted = {
-		set_global_flag = polish_uprising_victorious
-		LIT = {
-			any_owned = {
-				remove_core = RUS
-			}
-		}
-		CPL = {
-			any_owned = {
-				remove_core = RUS
-			}
-			country_event = { id = 500050 days = 5 }
-		}
-		RUS = {
-			country_event = { id = 500051 days = 5 }
-		}
-	}
+	#on_po_accepted = {
+	#	RUS = { set_country_flag = crimean_surrender }
+	#}
 
 	on_add = {}
 
-	war_name = WAR_POLAND_UPRISING
-}
-
-# Polish CB to retake lands
-reclaim_the_commonwealth = {
-	sprite_index = 23
-	is_triggered_only = yes
-	months = 12
-
-	construction_speed = 0.8
-
-	badboy_factor = 0.1
-	prestige_factor = 2
-	peace_cost_factor = 0.7
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 24
-
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		has_global_flag = commonwealth_restored_january
-		THIS = {
-			tag = PLC
-		}
-		is_vassal = no
-		OR = {
-			AND = {
-				has_global_flag = PLC_claimed_western_vilna
-				any_owned_province = {
-					region = western_vilna
-				}
-			}
-			AND = {
-				has_global_flag = PLC_claimed_eastern_vilna
-				any_owned_province = {
-					region = eastern_vilna
-				}
-			}
-			AND = { 
-				has_global_flag = PLC_claimed_right_bank
-				any_owned_province = {
-					region = right_bank_ukraine
-				}
-			}
-			AND = {
-				has_global_flag = PLC_claimed_livonia
-				any_owned_province = {
-					region = courland_livonia
-				}
-			}
-			AND = {
-				has_global_flag = PLC_claimed_left_bank
-				any_owned_province = {
-					region = left_bank_ukraine
-				}
-			}
-			AND = {
-				has_global_flag = polish_panslavism
-				has_global_flag = PLC_claimed_belarus
-				any_owned_province = {
-					region = greater_belarus # needs to be defined
-				}
-			}
-			AND = {
-				has_global_flag = polish_panslavism
-				has_global_flag = PLC_claimed_ukraine
-				any_owned_province = {
-					region = greater_ukraine
-				}
-			}
-			AND = {
-				has_global_flag = polish_panslavism
-				has_global_flag = PLC_claimed_raspberry_ukraine
-				any_owned_province = {
-					region = raspberry_ukraine
-				}
-			}
-		}
-		OR = {
-			war_with = THIS
-			THIS = { NOT = { has_country_modifier = punitive_effects } }
-		}
-		NOT = { has_country_modifier = neutrality }
-		THIS = { NOT = { has_country_modifier = neutrality } }
-	}
-
-	allowed_states = {
-		OR = {
-			AND = {
-				has_global_flag = PLC_claimed_western_vilna
-				any_owned_province = {
-					region = western_vilna
-				}
-			}
-			AND = {
-				has_global_flag = PLC_claimed_eastern_vilna
-				any_owned_province = {
-					region = eastern_vilna
-				}
-			}
-			AND = { 
-				has_global_flag = PLC_claimed_right_bank
-				any_owned_province = {
-					region = right_bank_ukraine
-				}
-			}
-			AND = {
-				has_global_flag = PLC_claimed_livonia
-				any_owned_province = {
-					OR = {
-						region = courland_livonia
-					}
-				}
-			}
-		}
-		OR = {
-			THIS = { ai = no }
-			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
-			any_owned_province = { port = yes }
-			AND = {
-				any_owned_province = { port = yes }
-				THIS = {
-					rank = 16
-					any_owned_province = { port = yes }
-				}
-			}
-		}
-	}
-
-	po_demand_state = yes
-
-	war_name = WAR_RECLAIM_THE_COMMONWEALTH_NAME
-
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism
-			to = pro_military
-			value = 0.05
-		}
-	}
-}
-
-# Russian CB to retake Slavic lands
-liberate_slavic_lands = {
-	sprite_index = 21
-	is_triggered_only = yes
-	months = 12
-
-	construction_speed = 0.8
-
-	badboy_factor = 0.2
-	prestige_factor = 2
-	peace_cost_factor = 0.7
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 5
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 48
-
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		THIS = {
-			tag = RUS
-			rank = 16
-			has_global_flag = manifesto_to_poland_issued
-		}
-		neighbour = THIS
-		any_owned_province = { #Opt
-			OR = {
-				region = PRU_682
-				region = PRU_690
-				region = PRU_695
-				region = PRU_701
-				region = AUS_662
-				region = AUS_702
-				region = RUS_715
-				region = RUS_706
-				region = RUS_708
-			}
-		}
-	}
-
-	allowed_states = {
-		OR = {
-			AND = {
-				THIS = { has_global_flag = manifesto_to_poland_issued }
-				any_owned_province = {
-					OR = {
-						region = PRU_682
-						region = PRU_690
-						region = PRU_695
-						region = PRU_701
-						region = AUS_662
-						region = AUS_702
-						region = RUS_715
-						region = RUS_706
-						region = RUS_708
-					}
-				}
-			}
-			AND = {
-				any_owned_province = {
-					OR = {
-						region = PRU_682
-						region = PRU_690
-						region = PRU_695
-						region = PRU_701
-						region = AUS_662
-						region = AUS_702
-						region = RUS_715
-						region = RUS_706
-						region = RUS_708
-					}
-				}
-			}
-		}
-	}
-
-	po_demand_state = yes
-
-	war_name = WAR_LIBERATE_POLAND_NAME
-
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism
-			to = pro_military
-			value = 0.05
-		}
-	}
-}
-
-# North American CB to take claims
-take_claim = {
-	sprite_index = 21
-	is_triggered_only = yes
-	months = 12
-
-	construction_speed = 0.8
-
-	badboy_factor = 0.05
-	prestige_factor = 2
-	peace_cost_factor = 0.7
-	penalty_factor = 1
-	always = yes
-
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 1
-	break_truce_militancy_factor = 0.1
-	truce_months = 48
-
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
-
-	can_use = {
-		neighbour = THIS
-		OR = {
-			AND = {
-				THIS = { tag = USA }
-				any_owned_province = { is_core = US2 }
-			}
-			AND = {
-				THIS = { tag = MEX }
-				any_owned_province = { is_core = ME2 }
-			}
-			AND = {
-				THIS = {
-					OR = {
-						tag = ENG
-						tag = CAN
-					}
-				}
-				any_owned_province = { is_core = CA2 }
-			}
-		}
-	}
-
-	allowed_states = {
-		OR = {
-			AND = {
-				THIS = { tag = USA }
-				any_owned_province = { is_core = US2 }
-			}
-			AND = {
-				THIS = { tag = MEX }
-				any_owned_province = { is_core = ME2 }
-			}
-			AND = {
-				THIS = {
-					OR = {
-						tag = ENG
-						tag = CAN
-					}
-				}
-				any_owned_province = { is_core = CA2 }
-			}
-		}
-		OR = {
-			THIS = { ai = no }
-			AND = {
-				THIS = { any_owned_province = { port = yes } }
-				any_owned_province = { port = yes }
-			}
-			any_owned_province = { any_neighbor_province = { owned_by = THIS } }
-		}
-	}
-
-	po_demand_state = yes
-
-	war_name = WAR_TAKE_CLAIM_NAME
-
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism
-			to = pro_military
-			value = 0.01
-		}
-	}
+	war_name = CRIMEAN_WAR_NAME
 }

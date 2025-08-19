@@ -1,6 +1,6 @@
-owner = KAG
-controller = KAG
-add_core = KAG
+owner = JC6
+controller = JC6
+add_core = JC6
 add_core = TKG
 trade_goods = grain
 life_rating = 35

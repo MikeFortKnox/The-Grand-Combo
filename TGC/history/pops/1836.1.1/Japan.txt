@@ -301,7 +301,7 @@
 		size = 3600
 	}
 }
-#Ishikara (15000/5000 POPS)
+#Ishikara - Sapporo (15000/5000 POPS)
 1643 = {
 	aristocrats = {
 		culture = ainu
@@ -340,7 +340,7 @@
 		size = 10
 	}
 }
-#Nemuru - Meakan (15000/4000 POPS)
+#Nemuro - Meakan (15000/4000 POPS)
 1644 = {
 	aristocrats = {
 		culture = ainu
@@ -887,7 +887,7 @@
 		size = 26225
 	}
 }
-#Urawa (1156000/289000 POPS)
+#Iwatsuki (1156000/289000 POPS)
 1652 = {
 	aristocrats = {
 		culture = japanese
@@ -2432,34 +2432,6 @@
 		size = 3670
 	}
 }
-#Amari (80000/20000 POPS)
-1679 = {
-	aristocrats = {
-		culture = japanese
-		religion = shinto
-		size = 375
-	}
-	clergymen = {
-		culture = japanese
-		religion = shinto
-		size = 200
-	}
-	artisans = {
-		culture = japanese
-		religion = shinto
-		size = 1100
-	}
-	soldiers = {
-		culture = japanese
-		religion = shinto
-		size = 200
-	}
-	farmers = {
-		culture = japanese
-		religion = shinto
-		size = 18225
-	}
-}
 #Sado (2000/500 POPS)
 3260 = {
 	clergymen = {
@@ -3176,7 +3148,7 @@
 		size = 100
 	}
 }
-#Okayama (2000/500 POPS)
+#Tsuyama (2000/500 POPS)
 3649 = {
 	farmers = {
 		culture = japanese
@@ -3192,7 +3164,7 @@
 		size = 100
 	}
 }
-#Katsuyama (2000/500 POPS)
+#Matsusaka (2000/500 POPS)
 3651 = {
 	farmers = {
 		culture = japanese
@@ -3200,7 +3172,7 @@
 		size = 100
 	}
 }
-#Katsuyama (2000/500 POPS)
+#Kumano (2000/500 POPS)
 3652 = {
 	farmers = {
 		culture = japanese
@@ -3208,7 +3180,7 @@
 		size = 100
 	}
 }
-#Katsuyama (2000/500 POPS)
+#Tamaru (2000/500 POPS)
 3653 = {
 	farmers = {
 		culture = japanese
@@ -3216,7 +3188,7 @@
 		size = 100
 	}
 }
-#Katsuyama (2000/500 POPS)
+#Toba (2000/500 POPS)
 3654 = {
 	farmers = {
 		culture = japanese
@@ -3224,7 +3196,7 @@
 		size = 100
 	}
 }
-#Katsuyama (2000/500 POPS)
+#Tsu (2000/500 POPS)
 3655 = {
 	farmers = {
 		culture = japanese
@@ -3647,4 +3619,1316 @@
 		religion = shinto
 		size = 100
 	}
+}
+#Murakami (2000/500 POPS)
+3710 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kurokawa (2000/500 POPS)
+3711 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shibata (2000/500 POPS)
+3712 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Suibara (2000/500 POPS)
+3713 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Muramatsu (2000/500 POPS)
+3714 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Mineoka (2000/500 POPS)
+3715 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Nagaoka (2000/500 POPS)
+3716 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Yoita (2000/500 POPS)
+3717 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shiiya (2000/500 POPS)
+3718 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takada (2000/500 POPS)
+3719 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Muikamachi (2000/500 POPS)
+3720 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Itoigawa (2000/500 POPS)
+3721 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ojiya (2000/500 POPS)
+3722 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Uozu (2000/500 POPS)
+3723 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takaoka (2000/500 POPS)
+3724 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Nanao (2000/500 POPS)
+3725 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Daishoji (2000/500 POPS)
+3726 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Maruoka (2000/500 POPS)
+3727 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sabae (2000/500 POPS)
+3728 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ono (2000/500 POPS)
+3729 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kuzuryu (2000/500 POPS)
+3730 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Katsuyama (2000/500 POPS)
+3731 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tsuruga (2000/500 POPS)
+3732 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Obama (2000/500 POPS)
+3733 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takayama (2000/500 POPS)
+3734 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Gujo (2000/500 POPS)
+3735 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Seki (2000/500 POPS)
+3737 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Yamagata (2000/500 POPS)
+3738 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Motosu (2000/500 POPS)
+3739 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ogaki (2000/500 POPS)
+3740 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kano (2000/500 POPS)
+3741 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sekigahara (2000/500 POPS)
+3742 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takasu (2000/500 POPS)
+3743 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kani (2000/500 POPS)
+3744 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Naegi (2000/500 POPS)
+3745 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Iwamura (2000/500 POPS)
+3746 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kiso (2000/500 POPS)
+3747 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Iiyama (2000/500 POPS)
+3748 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tobu (2000/500 POPS)
+3749 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Suzaka (2000/500 POPS)
+3750 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ueda (2000/500 POPS)
+3751 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Matsumuto (2000/500 POPS)
+3752 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Komoro (2000/500 POPS)
+3753 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Iwamurada (2000/500 POPS)
+3754 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tatsuoka (2000/500 POPS)
+3755 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takashima (2000/500 POPS)
+3756 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takato (2000/500 POPS)
+3757 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Iida (2000/500 POPS)
+3758 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Koromo (2000/500 POPS)
+3759 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kariya (2000/500 POPS)
+3760 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Hekinan (2000/500 POPS)
+3761 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Nishio (2000/500 POPS)
+3762 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Okazaki (2000/500 POPS)
+3763 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tahara (2000/500 POPS)
+3764 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Yoshida (2000/500 POPS)
+3765 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shinshiro (2000/500 POPS)
+3766 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Hamamatsu (2000/500 POPS)
+3767 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Osuka (2000/500 POPS)
+3768 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kakegawa (2000/500 POPS)
+3769 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sagara (2000/500 POPS)
+3770 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Numazu (2000/500 POPS)
+3771 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Gotemba (2000/500 POPS)
+3772 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shimoda (2000/500 POPS)
+3773 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ito (2000/500 POPS)
+3774 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Mizunami-Toki (2000/500 POPS)
+3775 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kofu (2000/500 POPS)
+3776 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sachishima (2000/500 POPS)
+3777 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Izu Islands (2000/500 POPS)
+3778 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Otsu (2000/500 POPS)
+3779 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Matsuoka (2000/500 POPS)
+3780 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Joso (2000/500 POPS)
+3781 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kurobahe (2000/500 POPS)
+3782 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Otawara (2000/500 POPS)
+3783 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Nikko (2000/500 POPS)
+3784 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Karasuyama (2000/500 POPS)
+3785 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kasama (2000/500 POPS)
+3786 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shishido (2000/500 POPS)
+3787 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Borodino Islands (2000/500 POPS)
+3788 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Fuchu (2000/500 POPS)
+3789 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tsuchiura (2000/500 POPS)
+3790 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Aso (2000/500 POPS)
+3791 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Choshi (2000/500 POPS)
+3792 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Takaoka (2000/500 POPS)
+3793 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sakura (2000/500 POPS)
+3794 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Mobara (2000/500 POPS)
+3795 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tsurumaki (2000/500 POPS)
+3796 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kaifuchi (2000/500 POPS)
+3797 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sanuki (2000/500 POPS)
+3798 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Katsuyama (2000/500 POPS)
+3799 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Tateyama (2000/500 POPS)
+3800 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Kururi (2000/500 POPS)
+3801 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Otaki (2000/500 POPS)
+3802 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ichinomiya (2000/500 POPS)
+3803 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Ushiku (2000/500 POPS)
+3804 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shimotsuma (2000/500 POPS)
+3805 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Shimodate (2000/500 POPS)
+3806 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Yuki (2000/500 POPS)
+3807 = {
+	farmers = {
+		culture = japanese
+		religion = shinto
+		size = 100
+	}
+}
+#Sekiyado (400/100 POPS)
+3808 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Koga (400/100 POPS)
+3809 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Mibu (400/100 POPS)
+3810 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Sano (400/100 POPS)
+3811 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Tatebayashi (400/100 POPS)
+3812 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Ashikaga (400/100 POPS)
+3813 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Oshi (400/100 POPS)
+3814 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Kawagoe (400/100 POPS)
+3815 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Kiryu (400/100 POPS)
+3816 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Kanazawa-Ku (400/100 POPS)
+3817 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Mutsuura (400/100 POPS)
+3818 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Ogino Yamanaka (400/100 POPS)
+3819 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Odawara (400/100 POPS)
+3820 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Yokosuka (400/100 POPS)
+3821 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Okabe (400/100 POPS)
+3822 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Isekaki (400/100 POPS)
+3823 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Maebashi (400/100 POPS)
+3824 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Takasaki (400/100 POPS)
+3825 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Yoshii (400/100 POPS)
+3826 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Obata (400/100 POPS)
+3827 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Nanokaichi (400/100 POPS)
+3828 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Annaka (400/100 POPS)
+3829 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Numata (400/100 POPS)
+3830 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Shibukawa (400/100 POPS)
+3831 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Omigawa (400/100 POPS)
+3832 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Omiya (400/100 POPS)
+3833 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Kawasaki (400/100 POPS)
+3834 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Hirosaki (400/100 POPS)
+3835 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Kuroishi (400/100 POPS)
+3836 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Hiranai (400/100 POPS)
+3837 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Tanabu (400/100 POPS)
+3838 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Shichinohe (400/100 POPS)
+3839 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Hachinohe (400/100 POPS)
+3840 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Miyako (400/100 POPS)
+3841 = {
+    artisans = {
+        culture = japanese
+        religion = shinto
+        size = 100
+    }
+}
+#Yokote (400/100 POPS)
+3842 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Kameda (400/100 POPS)
+3843 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Honjo (400/100 POPS)
+3844 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Shonai (400/100 POPS)
+3845 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Sakata (400/100 POPS)
+3846 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Tsuruoka (400/100 POPS)
+3847 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Shinjo (400/100 POPS)
+3848 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Sagae (400/100 POPS)
+3849 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Tendo (400/100 POPS)
+3850 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Kaminoyama (400/100 POPS)
+3851 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Mizusawa (400/100 POPS)
+3852 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Ichinoseki (400/100 POPS)
+3853 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Ishinomaki (400/100 POPS)
+3854 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Tome (400/100 POPS)
+3855 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Shiroishi (400/100 POPS)
+3856 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Yonezawa (400/100 POPS)
+3857 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Soma (400/100 POPS)
+3858 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Tomioka (400/100 POPS)
+3859 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Iwakitaira (400/100 POPS)
+3860 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Izumi (400/100 POPS)
+3861 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Yanagaya (400/100 POPS)
+3862 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Nihonmatsu (400/100 POPS)
+3863 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Miharu (400/100 POPS)
+3864 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Sukagawa (400/100 POPS)
+3865 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Shirakawa (400/100 POPS)
+3866 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Tanagura (400/100 POPS)
+3867 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Aizuwakamatsu (400/100 POPS)
+3868 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Matsumae (400/100 POPS)
+3869 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Otaru (400/100 POPS)
+3870 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Muroran (400/100 POPS)
+3871 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Abashiri (400/100 POPS)
+3872 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Obihiro (400/100 POPS)
+3873 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
+}
+#Asahikawa (400/100 POPS)
+3874 = {
+    artisans = {
+        culture = alaskan
+        religion = orthodox
+        size = 100
+    }
 }

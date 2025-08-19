@@ -1,6 +1,6 @@
-owner = CHO
-controller = CHO
-add_core = CHO
+owner = J08
+controller = J08
+add_core = J08
 add_core = TKG
 trade_goods = fruit
 life_rating = 35
